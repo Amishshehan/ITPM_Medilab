@@ -211,7 +211,7 @@ const Form = ({ currentId, setCurrentId }) => {
                           type="submit"
                           style={{background:'#2bc4ba',color:'white'}}
                           class="btn btn-send pt-2 btn-block "
-                          value="ADD"
+                          value={currentId ? 'Edit' : 'Add'}
                         />
                       </div>
                     </div>
