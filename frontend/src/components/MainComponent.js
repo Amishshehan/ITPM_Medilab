@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import Home from "./HomeComponent";
 import Header from "./HeaderComponent";
 import Footer from "./FooterComponent";
-import DocterCom from "./DocterCom";
+import DoctorCom from "./DoctorCom";
+import DoctorView from "./DoctorView";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
 
@@ -23,7 +24,10 @@ class Main extends Component {
 
           <Route path="/home" component={HomePage} /> 
 
-          <Route path="/doctors" exact component={() => <Redirect to="/doctors"/>}><DocterCom /></Route>
+          <Route path="/doctors/search" exact component = {DoctorCom}/>
+          <Route path="/doctorsdetails/search" exact component = {DoctorView}/>
+          <Route path="/doctors" exact component={() => <Redirect to="/doctors"/>}><DoctorCom/></Route>
+          <Route path="/doctorsdetails" exact component={() => <Redirect to="/doctorsdetails"/>}><DoctorView/></Route>  
             
           
           <Redirect to="/home" />
