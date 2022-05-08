@@ -54,7 +54,7 @@ class Header extends Component {
                 <li><a class="nav-link scrollto" href="#about">About Us</a></li>
                 <li><a class="nav-link scrollto" href="#services">Services</a></li>
                 <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                <li><a class="nav-link scrollto" href="doctors">Doctors</a></li>
+                <li><a class="nav-link scrollto" href="doctorsdetails">Doctors</a></li>
                 <li><a class="nav-link scrollto" href="#Pharmacy">Pharmacy</a></li>
                 <li><a class="nav-link scrollto" href="#Patients">Patients</a></li>
                 <li><a class="nav-link scrollto" href="#appointment">Make an Appointment</a></li>
@@ -62,7 +62,7 @@ class Header extends Component {
               </ul>
               <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
-            <a href="#login" className="login-btn"><span class="d-none d-md-inline"></span><i className="bi bi-box-arrow-in-right mr-1"></i> Login</a>
+            <a href="doctors" className="login-btn"><span class="d-none d-md-inline"></span><i className="bi bi-box-arrow-in-right mr-1"></i> Login</a>
           </div>
         </header>
       </div>
