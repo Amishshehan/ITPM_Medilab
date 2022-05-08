@@ -2,16 +2,15 @@ import React, { useState, useEffect } from 'react';
 import { Container, AppBar, Typography, Grow, Grid, Paper, TextField, Button } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 import { useHistory, useLocation } from 'react-router-dom';
-import { getDoctors, getDoctorsBySearch } from '../actions/doctors';
-import Pagination from './Pagination';
+import { getDoctors, getDoctorsBySearch } from '../../components/DoctorManagement/actions/doctors';
+import Pagination from '../DoctorManagement/Pagination';
 import Doctors from './DoctorView/Doctors';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea } from '@mui/material';
-import DocImg from '../images/Doc.jpg'
-import memories from '../images/memories.png';
-import useStyles from '../styles';
+import DocImg from '../DoctorManagement/images/Doc.jpg'
+import useStyles from '../../styles';
 import doctorUseStyles from './stComStyles';
 
 function useQuery() {

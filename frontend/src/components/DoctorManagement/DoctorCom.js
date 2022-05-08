@@ -2,12 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Container, AppBar, Typography, Grow, Grid, Paper, TextField, Button } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 import { useHistory, useLocation } from 'react-router-dom';
-import { getDoctors, getDoctorsBySearch } from '../actions/doctors';
+import { getDoctors, getDoctorsBySearch } from './actions/doctors';
 import Pagination from './Pagination';
 import Doctors from './Doctors/Doctors';
 import Form from './Form/Form';
-import memories from '../images/memories.png';
-import useStyles from '../styles';
+import useStyles from '../../styles';
 import doctorUseStyles from './stComStyles';
 
 function useQuery() {

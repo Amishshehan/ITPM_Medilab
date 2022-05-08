@@ -3,7 +3,7 @@ import React from 'react';
 import { Grid, CircularProgress } from '@material-ui/core';
 import { useSelector } from 'react-redux';
 
-import Doctor from './Doctor/Doctor';
+import Doctor from '../Doctors/Doctor/Doctor';
 import useStyles from './styles';
 
 

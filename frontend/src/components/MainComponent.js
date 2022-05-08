@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import Home from "./HomeComponent";
 import Header from "./HeaderComponent";
 import Footer from "./FooterComponent";
-import DoctorCom from "./DoctorCom";
-import DoctorView from "./DoctorView";
+import DoctorCom from "./DoctorManagement/DoctorCom";
+import DoctorView from "./DoctorManagement/DoctorView";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
 
