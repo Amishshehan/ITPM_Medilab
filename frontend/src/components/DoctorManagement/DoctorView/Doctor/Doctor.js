@@ -6,7 +6,6 @@ import jsPDF from 'jspdf';
 import autoTable from 'jspdf-autotable';
 import useStyles from './styles';
 import { useDispatch } from 'react-redux';
-import { display } from '@mui/material/node_modules/@mui/system';
 
 const Doctor = ({ doctor, setCurrentId }) => {
     const classes = useStyles();

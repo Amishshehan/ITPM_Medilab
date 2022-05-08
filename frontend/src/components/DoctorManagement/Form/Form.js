@@ -3,8 +3,8 @@ import { TextField, Button, Typography, Paper, Grid, FormLabel, FormControl, Inp
 import FileBase from 'react-file-base64';
 import { useDispatch, useSelector } from 'react-redux';
 import useStyles from './styles';
-import { createDoctor, updateDoctor } from '../../actions/doctors';
-import { useForm } from "react-hook-form";
+import { createDoctor, updateDoctor } from '../actions/doctors';
+
 
 const Form = ({ currentId, setCurrentId }) => {
   const [doctorData, setDoctorData] = useState({ fullName: '', age: '', email: '', phoneNumber: '', slmcNo: '', speciality: '', gender: '', qualification: '', birthday: '', selectedFile: '' });
